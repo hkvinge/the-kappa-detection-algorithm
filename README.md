@@ -1,4 +1,4 @@
-# the-kappa-detection-algorithm
+# The kappa-detection algorithm
 
 In many situations, the classes of data points of primary interest also happen to be those that are least numerous. 
 A well-known example is detection of fraudulent transactions among the collection of all transactions, 
@@ -7,9 +7,11 @@ One challenging aspect of these problems is that a rare class may not be easily 
 (at least in terms of available features). Statistics related to the geometry of the rare class 
 (such as its intrinsic dimension) can be significantly different from those for the majority class, 
 reflecting the different dynamics driving variation in the different classes. 
-In this paper we present a new supervised learning algorithm that uses a dimension-driven statistic, 
+In the paper [Rare geometries: revealing rare categories via dimension-driven statistics](https://arxiv.org/abs/1901.10585) we present a new supervised learning algorithm that uses a dimension-driven statistic, 
 called the κ-profile, to classify unlabeled points as likely to belong to a rare class.
 
-In the paper [Rare geometries: revealing rare categories via dimension-driven statistics](https://arxiv.org/abs/1901.10585), 
-we presented a supervised learning algorithm which addresses the rare category detection problem via a dimension driven 
-approach. 
+This repository contains code related to this project. 
+
+# The code
+
+All code in this repository is written in Python. 
